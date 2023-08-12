@@ -1,2 +1,2 @@
-/usr/bin/ar qc libdirt.a CMakeFiles/dirt.dir/src/engine.cpp.o
+/usr/bin/ar qc libdirt.a CMakeFiles/dirt.dir/src/engine.cpp.o CMakeFiles/dirt.dir/src/test.cpp.o
 /usr/bin/ranlib libdirt.a

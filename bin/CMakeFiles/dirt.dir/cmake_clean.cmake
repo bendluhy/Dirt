@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dirt.dir/src/engine.cpp.o"
   "CMakeFiles/dirt.dir/src/engine.cpp.o.d"
+  "CMakeFiles/dirt.dir/src/test.cpp.o"
+  "CMakeFiles/dirt.dir/src/test.cpp.o.d"
   "libdirt.a"
   "libdirt.pdb"
 )

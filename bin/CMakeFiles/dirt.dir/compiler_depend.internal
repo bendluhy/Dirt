@@ -4,7 +4,7 @@
 CMakeFiles/dirt.dir/src/engine.cpp.o
  /home/ben/Code/CPP/Dirt/src/engine.cpp
  /usr/include/stdc-predef.h
- /home/ben/Code/CPP/Dirt/src/engine.h
+ /home/ben/Code/CPP/Dirt/include/engine.h
  /usr/local/include/GLFW/glfw3.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
@@ -184,4 +184,5 @@ CMakeFiles/dirt.dir/src/engine.cpp.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
+ /home/ben/Code/CPP/Dirt/include/test.h
 

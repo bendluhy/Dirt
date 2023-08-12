@@ -166,6 +166,30 @@ src/engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dirt.dir/build.make CMakeFiles/dirt.dir/src/engine.cpp.s
 .PHONY : src/engine.cpp.s
 
+src/test.o: src/test.cpp.o
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dirt.dir/build.make CMakeFiles/dirt.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dirt.dir/build.make CMakeFiles/dirt.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dirt.dir/build.make CMakeFiles/dirt.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
 test/testing.o: test/testing.cpp.o
 .PHONY : test/testing.o
 
@@ -203,6 +227,9 @@ help:
 	@echo "... src/engine.o"
 	@echo "... src/engine.i"
 	@echo "... src/engine.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 	@echo "... test/testing.o"
 	@echo "... test/testing.i"
 	@echo "... test/testing.s"
