@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/test/testing.cpp.o -o test  libdirt.a /usr/local/lib/libglfw3.a -lGL -lX11 -lpthread -lXrandr -lXi -ldl /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so 
